@@ -1,0 +1,88 @@
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Poppins", sans-serif;
+    }
+
+    body {
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: linear-gradient(135deg, #141e30, #243b55);
+      color: white;
+    }
+
+    .container {
+      width: 400px;
+      padding: 25px;
+      border-radius: 15px;
+      background: rgba(255, 255, 255, 0.1);
+      box-shadow: 0 0 20px rgba(0, 255, 255, 0.3);
+      backdrop-filter: blur(10px);
+      text-align: center;
+    }
+
+    .output-box {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 10px;
+      padding: 10px 15px;
+      margin-bottom: 25px;
+    }
+
+    .output-box input {
+      flex: 1;
+      border: none;
+      outline: none;
+      background: transparent;
+      color: white;
+      font-size: 18px;
+    }
+
+    .copy-btn {
+      background: #00ffff;
+      color: black;
+      font-weight: bold;
+      border: none;
+      border-radius: 8px;
+      padding: 8px 12px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    .copy-btn:hover {
+      background: #00e6e6;
+      transform: scale(1.05);
+    }
+
+    .range-section {
+      text-align: left;
+      margin-bottom: 15px;
+    }
+
+    .range-section label {
+      font-size: 14px;
+      color: #ccc;
+    }
+
+    .range-section input[type="range"] {
+      width: 100%;
+      margin-top: 5px;
+      accent-color: #00ffff;
+    }
+
+    .options {
+      display: flex;
+      justify-content: space-between;
+      color: #ccc;
+      font-size: 14px;
+    }
+
+    .options label {
+      cursor: pointer;
+    }
